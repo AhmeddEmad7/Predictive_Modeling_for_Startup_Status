@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Your existing head content goes here -->
+</head>
+<body>
+    <h2>Model Prediction Result:</h2>
+    <p>Status of the Company:</p>
+    
+    {% if prediction == 0 %}
+        <p>Acquired</p>
+    {% elif prediction == 1 %}
+        <p>Closed</p>
+    {% elif prediction == 2 %}
+        <p>IPO</p>
+    {% elif prediction == 3 %}
+        <p>Operating</p>
+    {% else %}
+        <p>Unknown</p>
+    {% endif %}
+    
+    <a href="/">Go back</a>
+
+    <!-- Your existing body content goes here -->
+</body>
+</html>
+
+

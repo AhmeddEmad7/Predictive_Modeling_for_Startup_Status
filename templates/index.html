@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Your existing head content goes here -->
+</head>
+<body>
+    <form method="POST" action="/predict">
+        <label for="founded_at">Founded At:</label>
+        <input type="text" name="founded_at" required>
+
+        <label for="first_funding_at">First Funding At:</label>
+        <input type="text" name="first_funding_at" required>
+
+        <label for="last_funding_at">Last Funding At:</label>
+        <input type="text" name="last_funding_at" required>
+
+        <label for="funding_rounds">Funding Rounds:</label>
+        <input type="text" name="funding_rounds" required>
+
+        <label for="funding_total_usd">Funding Total (USD):</label>
+        <input type="text" name="funding_total_usd" required>
+
+        <label for="first_milestone_at">First Milestone At:</label>
+        <input type="text" name="first_milestone_at" required>
+
+        <label for="last_milestone_at">Last Milestone At:</label>
+        <input type="text" name="last_milestone_at" required>
+
+        <label for="milestones">Milestones:</label>
+        <input type="text" name="milestones" required>
+
+        <label for="relationships">Relationships:</label>
+        <input type="text" name="relationships" required>
+
+        <!-- Repeat the structure for other input fields -->
+
+        <input type="submit" value="Predict">
+    </form>
+
+    <!-- Your existing body content goes here -->
+</body>
+</html>
