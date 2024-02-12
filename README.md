@@ -40,7 +40,7 @@ These sklearn models were used to make predicions on the startups status:
 ### Loaded Pretrained Model:
 - Loaded the pretrained ensemble model using the `pickle` module.
 
-### Created Flask Application:
+### Created and Ran the Flask Application:
 - Define Home Route:
   - Home Page Rendering: Designed the home page (`index.html`) with the necessary form for user input.
   - Created a route (`'/'`) that renders the home page (`index.html`).
@@ -56,5 +56,3 @@ These sklearn models were used to make predicions on the startups status:
   - Used the loaded ensemble model to make predictions on the input data.
 - Render Result Page:
   - Displayed the prediction results on a separate result page (`result.html`).
-
-### Run the Flask App
